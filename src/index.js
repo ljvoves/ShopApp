@@ -1,14 +1,6 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
-
-class ShopApp extends Component {
-  render() {
-    return (
-      <h1>Hi son.</h1>
-    );
-  }
-}
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ShopApp from './ShopApp';
 
 const rootElement = document.getElementById('root');
 
